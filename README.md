@@ -114,15 +114,6 @@ The agent expects these environment variables (configured in `agent.yaml`):
 | `FOUNDRY_PROJECT_ENDPOINT` | Azure AI Foundry project endpoint |
 | `FOUNDRY_MODEL_DEPLOYMENT_NAME` | Model deployment name (e.g., gpt-4o-mini) |
 
-## Migration from LangGraph
-
-This sample was migrated from LangGraph. See [LANGGRAPH_TO_AGENT_FRAMEWORK_GUIDE.md](./LANGGRAPH_TO_AGENT_FRAMEWORK_GUIDE.md) for a complete migration guide including:
-
-- Tool conversion patterns
-- Client setup differences
-- Deployment configuration
-- Common pitfalls
-
 ## Cleanup
 
 ```bash

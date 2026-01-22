@@ -1,0 +1,22 @@
+# Microsoft Agent Framework - pinned to match weather-agent
+agent-framework-azure-ai==1.0.0b260107
+agent-framework-core==1.0.0b260107
+
+# Agent server for HTTP mode
+azure-ai-agentserver-agentframework
+
+# Web server
+uvicorn
+fastapi
+
+# Azure identity for authentication
+azure-identity
+
+# Environment variable loading
+python-dotenv
+
+# Monitoring
+azure-monitor-opentelemetry==1.8.1
+
+# Development tools
+pytest==8.4.2
